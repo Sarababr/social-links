@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+@font-face {
+    font-family: 'Inter-VariableFont_slnt,wght'; /* Name your font family */
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf'); /* Locate the .ttf file within your directory*/
+  }
+  
+  
+
+body {
+
+    background-color: black;
+    color: rgb(150, 150, 150) ; 
+    font-family: 'Inter-VariableFont_slnt,wght';
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tree {
+    background-color: rgb(132, 131, 131) ;
+    width: 100px; /* Adjusted from 800px */
+    height: 500px; /* Adjusted from 150px */
+    padding: 10px;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    margin-left: 550px;
+    margin-right: 550px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: azure;
+    font-weight: 700;
+    font-size: 1.7em;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: greenyellow;
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+p {
+    color: rgba(246, 241, 241, 0.832);
+    margin-bottom: 20px;
+}
+
+.header-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+  }
+
+.one button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.one button:hover {
+    background-color: #a10d0d;
+}
+
